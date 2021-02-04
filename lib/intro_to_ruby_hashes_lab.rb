@@ -6,7 +6,7 @@ my_hash_creator(1, 2)
 
 
 def read_from_hash(key)
-  {id=>key}
+  {:id=>key}
   
 end
 read_from_hash("Steve")
