@@ -5,7 +5,7 @@ my_hash_creator("name","Grace Hopper")
 my_hash_creator(1, 2)
 
 
-def read_from_hash(key,value)
+def read_from_hash(key)
   {key=>value}
   
 end
