@@ -5,8 +5,8 @@ my_hash_creator("name","Grace Hopper")
 my_hash_creator(1, 2)
 
 
-def read_from_hash(key)
-  {:id=>key}
+def read_from_hash(name)
+  {:id=>name}
   
 end
 read_from_hash("Steve")
