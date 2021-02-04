@@ -6,11 +6,12 @@ my_hash_creator(1, 2)
 
 
 def read_from_hash(key)
-  read_from_hash
+  read_from_hash{:name=>key)
   
 end
-read_from_hash("name","Steve")
-read_from_hash("name","Tzvi")
+read_from_hash("Steve")
+read_from_hash("Tzvi")
+
 =begin
  describe "read_from_hash" do
     it "returns the value corresponding to the provided key" do
