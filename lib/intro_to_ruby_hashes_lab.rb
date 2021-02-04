@@ -6,6 +6,8 @@ my_hash_creator(1, 2)
 
 
 def read_from_hash(name)
+  
+  hash_to_read={name:"Steve"}
   {:id=>name}
   
 end
