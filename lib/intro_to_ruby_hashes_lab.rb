@@ -6,7 +6,7 @@ my_hash_creator(1, 2)
 
 
 def read_from_hash(key)
-  {key=>value}
+  read_from_hash
   
 end
 read_from_hash("name","Steve")
