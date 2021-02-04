@@ -10,6 +10,12 @@ def read_from_hash(hash_to_read,key)
   end
 
 
+def read_from_hash(hash,key)
+  
+  hash[key]
+  
+end
+
 
 describe "read_from_hash" do
     it "returns the value corresponding to the provided key" do
