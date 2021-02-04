@@ -10,10 +10,6 @@ def read_from_hash(hash_to_read,key)
   end
 
 
-def read_from_hash(hash,key)
-  
-  hash[key]
-  
-end
+
 
 
